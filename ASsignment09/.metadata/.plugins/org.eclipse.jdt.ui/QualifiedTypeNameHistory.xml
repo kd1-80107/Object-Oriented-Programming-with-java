@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="Assignment.DoubleComparator"/>
+    <fullyQualifiedTypeName name="Assignment.DoubleComparable"/>
+    <fullyQualifiedTypeName name="Assignment.Student"/>
+    <fullyQualifiedTypeName name="Assignment.StudentTest.StudentComparator"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Assignmenet.Book"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="BookPriceComparator"/>
+</qualifiedTypeNameHistroy>

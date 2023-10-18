@@ -1,0 +1,27 @@
+package Assignment;
+
+import java.util.Comparator;
+
+public class DoubleComparable implements Comparator<Double>
+{
+
+	@Override
+	public int compare(Double d1, Double d2) {
+		int diff = d1.compareTo(d2);
+		if(diff == 0)
+		{
+			diff = Double.compare(d1, d2);
+		}
+		return diff;
+	}
+
+	
+	
+	
+
+
+	
+
+	
+		
+}
