@@ -1,0 +1,43 @@
+/*
+5. Store Books in HashMap<> so that for given isbn, book can be searched in fastest possible time. Do we need to write equals() and hashCode() in Book
+class?
+*/
+package com.assignment11_5;
+import java.util.*;
+
+
+
+
+public class BooksTest{
+
+	public static void main(String[] args)
+	{		
+	
+		Map<String,Books> map = new HashMap<>();
+		
+		map.put("key1", new Books("Abc","Wings of fire","Apj",10,220.0));
+		map.put("key2",new Books("Xyz","Yugandhar","Shree",25,620.0));
+		map.put("key3",new Books("HHM","ShreemanYogi","Ranjeet Desai",100,760.0));
+		map.put("key3",new Books("Okk","Automic Habbits","James Clear",150,650.0));
+		map.put("key4",new Books("DV","Chhava","Shivaji Sawant",101,730.0));
+		
+		
+		System.out.println(map);
+		
+		
+//		System.out.println("1.Insert Book in Map");
+//		System.out.println("2.Find in Map by ISBN");
+//		System.out.println("Enter a choice..!");
+//		int choice = 0;
+//		
+//		switch(choice)
+//		{
+//		case 1:
+//			
+//			
+//		}
+//		
+
+	}
+
+}

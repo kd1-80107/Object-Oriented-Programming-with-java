@@ -1,0 +1,48 @@
+package com.assignment11_5;
+
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.TreeSet;
+
+/*
+5. Store Books in HashMap<> so that for given isbn, book can be searched in fastest possible time. Do we need to write equals() and hashCode() in Book
+class?
+*/
+package com.assignment11_5;
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+
+public class BooksTest{
+
+	public static void main(String[] args)
+	{		
+	
+		TreeSet<Books> set = new TreeSet<>();
+		
+		set.add(new Books("Abc","Wings of fire","Apj",10,220.0));
+		set.add(new Books("Xyz","Yugandhar","Shree",25,620.0));
+		set.add(new Books("HHM","ShreemanYogi","Ranjeet Desai",100,760.0));
+		set.add(new Books("DV","Chhava","Shivaji Sawant",101,730.0));
+		set.add(new Books("DV","Chhava","Shivaji Sawant",101,730.0));
+		set.add(new Books("Xyz","Ugandhar","Shree",25,620.0));
+		
+		Iterator<Books> itr = set.iterator();
+		while(itr.hasNext())
+		{
+			Books bk = itr.next();
+			System.out.println(bk);
+			
+		}
+
+		
+		
+		
+
+	}
+
+}

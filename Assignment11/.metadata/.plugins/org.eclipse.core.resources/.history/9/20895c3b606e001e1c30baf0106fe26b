@@ -1,0 +1,19 @@
+package com.assignment11_1;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class BookTester {
+
+	public static void main(String[] args)
+	{
+		Set<Books> set = new HashSet<>();
+		
+		//adding books
+		
+		set.add(new Books("Abc","Wings of fire","Apj",10,220.0));
+		
+
+	}
+
+}

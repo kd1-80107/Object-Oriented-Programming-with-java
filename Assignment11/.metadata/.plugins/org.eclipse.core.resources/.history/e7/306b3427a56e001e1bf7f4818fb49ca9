@@ -1,0 +1,55 @@
+package com.Assignment;
+
+public class Student 
+{
+	int rollno;
+	double marks;
+	String grades;
+	
+	public Student()
+	{
+		
+	}
+	
+	public Student(int rollno, double marks, String grades) {
+		//super();
+		this.rollno = rollno;
+		this.marks = marks;
+		this.grades = grades;
+		
+		
+	}
+
+	public int getRollno() {
+		return rollno;
+	}
+
+	public void setRollno(int rollno) {
+		this.rollno = rollno;
+	}
+
+	public double getMarks() {
+		return marks;
+	}
+
+	public void setMarks(double marks) {
+		this.marks = marks;
+	}
+
+	public String getGrades() {
+		return grades;
+	}
+
+	public void setGrades(String grades) {
+		this.grades = grades;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [rollno=" + rollno + ", marks=" + marks + ", grades=" + grades + "]";
+	}
+	
+	
+	
+	
+}
