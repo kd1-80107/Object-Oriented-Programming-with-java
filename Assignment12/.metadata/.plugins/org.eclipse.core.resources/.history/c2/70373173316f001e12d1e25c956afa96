@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class MainArth {
+	
+	static void calculate(double num1, double num2,Arithmetic op)
+	{
+		double result = op.calc(num1, num2);
+		System.out.println("Result : " +result);
+		
+		
+		System.out.println("1.Addition");
+		System.out.println("2.Substraction");
+		System.out.println("3.Multiplication");
+		
+		System.out.println("Enter a choice");
+		
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int choice = sc.nextInt();
+		int choice = 0;
+		
+		
+		while(choice != 0)
+		{
+			switch(choice)
+			{
+			case 1:
+				calculate(1,2,(a,b)-> a+b);
+				System.out.println("Addition is : ");
+				break;
+				
+				
+			}
+		}
+		
+		
+		
+
+	}
+
+}

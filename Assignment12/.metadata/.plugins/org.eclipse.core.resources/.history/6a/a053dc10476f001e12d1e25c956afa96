@@ -1,0 +1,15 @@
+package com.Assignment12_7;
+
+import java.util.Random;
+
+public class StreamTest {
+
+	public static void main(String[] args) 
+	{
+		Random r = new Random();
+		
+		Stream
+	
+	}
+
+}

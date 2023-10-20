@@ -1,0 +1,16 @@
+package com.sunbeam;
+
+import java.util.function.Predicate;
+
+public class SLambda {
+
+	public static int countIf(String[]arr, Predicate<String>cond)
+	{
+		
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}
